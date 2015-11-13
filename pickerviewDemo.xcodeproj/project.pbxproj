@@ -15,6 +15,10 @@
 		840BC8001BF5D5D100045BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840BC7FE1BF5D5D100045BAE /* LaunchScreen.storyboard */; };
 		840BC80B1BF5D5D100045BAE /* pickerviewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BC80A1BF5D5D100045BAE /* pickerviewDemoTests.m */; };
 		840BC8161BF5D5D100045BAE /* pickerviewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BC8151BF5D5D100045BAE /* pickerviewDemoUITests.m */; };
+		840BC8241BF5D62200045BAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840BC8231BF5D62200045BAE /* UIKit.framework */; };
+		840BC8261BF5D62D00045BAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840BC8251BF5D62D00045BAE /* Foundation.framework */; };
+		840BC8281BF5D63800045BAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840BC8271BF5D63800045BAE /* CoreGraphics.framework */; };
+		840BC82A1BF5D66000045BAE /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840BC8291BF5D66000045BAE /* area.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		840BC8111BF5D5D100045BAE /* pickerviewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickerviewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840BC8151BF5D5D100045BAE /* pickerviewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickerviewDemoUITests.m; sourceTree = "<group>"; };
 		840BC8171BF5D5D100045BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840BC8231BF5D62200045BAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		840BC8251BF5D62D00045BAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		840BC8271BF5D63800045BAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		840BC8291BF5D66000045BAE /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840BC8281BF5D63800045BAE /* CoreGraphics.framework in Frameworks */,
+				840BC8261BF5D62D00045BAE /* Foundation.framework in Frameworks */,
+				840BC8241BF5D62200045BAE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,9 @@
 		840BC7E41BF5D5D000045BAE = {
 			isa = PBXGroup;
 			children = (
+				840BC8271BF5D63800045BAE /* CoreGraphics.framework */,
+				840BC8251BF5D62D00045BAE /* Foundation.framework */,
+				840BC8231BF5D62200045BAE /* UIKit.framework */,
 				840BC7EF1BF5D5D000045BAE /* pickerviewDemo */,
 				840BC8091BF5D5D100045BAE /* pickerviewDemoTests */,
 				840BC8141BF5D5D100045BAE /* pickerviewDemoUITests */,
@@ -101,6 +115,7 @@
 		840BC7EF1BF5D5D000045BAE /* pickerviewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				840BC8291BF5D66000045BAE /* area.plist */,
 				840BC7F31BF5D5D100045BAE /* AppDelegate.h */,
 				840BC7F41BF5D5D100045BAE /* AppDelegate.m */,
 				840BC7F61BF5D5D100045BAE /* ViewController.h */,
@@ -244,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840BC8001BF5D5D100045BAE /* LaunchScreen.storyboard in Resources */,
+				840BC82A1BF5D66000045BAE /* area.plist in Resources */,
 				840BC7FD1BF5D5D100045BAE /* Assets.xcassets in Resources */,
 				840BC7FB1BF5D5D100045BAE /* Main.storyboard in Resources */,
 			);
